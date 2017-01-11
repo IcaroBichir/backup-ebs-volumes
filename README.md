@@ -1,3 +1,4 @@
+```
 #!/bin/bash -ex
 
 LABEL='backup-ebs-volumes-job'
@@ -20,3 +21,4 @@ docker run \
   --rm \
   -t ${LABEL}:${TAG} \
   python ebs-snapshot-janitor.py
+  ```
